@@ -1,5 +1,0 @@
-1. project initialize with virtual env
-2. package installation
-3. Introduction to Line Chat Bot with Python (setup chatbot)
-4. Introduction to python flask - webhook - ngrok (อธิบาย Messaging API ทำไมถึงต้องใช้ web app ในการใช้งานบอท , HTTP METHODs))
-5. Test Code with non-sdk Line_Chatbot
