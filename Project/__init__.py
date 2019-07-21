@@ -201,7 +201,7 @@ def SendMail():
                             json.dump(data,wrtie_data)
                         return '200'
 
-                else :
+                elif payload['events'][0]['message']['text'] == 'ยกเลิกการส่ง' :
                     Reply_token = payload['events'][0]['replyToken']
                     message = payload['events'][0]['message']['text']
                     Reply_messasge = 'การส่งอีเมลถูกยุติ กรุณาลองใหม่อีกครั้ง กดเมนู ส่งอีเมล'
